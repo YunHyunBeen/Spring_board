@@ -1,20 +1,20 @@
-package com.hbyun.domain;
+package com.board.domain;
 
 import java.util.Date;
 
 public class BoardVO {
-	int board_nol;
+	int board_no;
 	String title;
 	String content;
 	String writer;
 	int view_cnt;
 	Date create_date;
 	Date update_date;
-	public int getBoard_nol() {
-		return board_nol;
+	public int getBoard_no() {
+		return board_no;
 	}
-	public void setBoard_nol(int board_nol) {
-		this.board_nol = board_nol;
+	public void setBoard_no(int board_no) {
+		this.board_no = board_no;
 	}
 	public String getTitle() {
 		return title;
